@@ -1,7 +1,7 @@
 # Configure-ACI-using-Ansible-Lab-Guide
 
 
-##Table of Contents
+## Table of Contents
 
 Introduction
 
@@ -43,7 +43,7 @@ This should give you access to the path where the Ansible playbooks for ACI are 
 ![](imgs/Pic5.png)
 
 
-##Lab 1: Create Tenant
+## Lab 1: Create Tenant
 
 In this lab exercise, we’ll use a simple playbook to create a tenant.
 
@@ -105,7 +105,7 @@ After running, your terminal should look like this:
 This concludes Lab 1.
 
 
-##Lab 2: Create VRF and Bridge Domain
+## Lab 2: Create VRF and Bridge Domain
 
 In the previous exercise, we had the configuration value stored within the Ansible playbook. This is not desirable for various reasons. Whenever one needs to change the configuration values, there’ll always be the risk of inadvertently changing the playbook code. It’s always best practice to separate the automation code and the configuration values. In this lab exercise, we’ll see how to do that.
 
@@ -206,7 +206,7 @@ After running, your terminal should look like this:
 This concludes Lab 2.
 
 
-##Lab 3: Create Contracts
+## Lab 3: Create Contracts
 
 In this lab exercise, we’ll look at how to reduce repetitive code by using loops. For example, when we need to create multiple contracts, instead of writing a playbook task for each contract, we can use with\_items loop. Note that the types of items you iterate over with ‘with_items’ do not have to be simple lists of strings. You can even iterate over a list of hashes (key=value pairs and other data structures).
 
