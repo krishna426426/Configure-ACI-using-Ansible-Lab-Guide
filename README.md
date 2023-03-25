@@ -57,7 +57,6 @@ In this lab exercise, we’ll use a simple playbook to create a tenant.
 
 ```
 [ansible@ansible lab1]$ vi create_tenant.yml
-
 ```
 Go through the playbook to understand how it works. You should now be familiar with the syntax used in Ansible from the NXOS exercises. 
 
@@ -123,7 +122,6 @@ We can store the configuration values within the inventory file or an external v
 ```
 [ansible@ansible lab2]$ vi inventory
 apic user=admin pass=C1sco12345
-
 ```
 
 3.	Some of the configuration values are stored as variables in an external variables file. These values need to be explicitly imported by Ansible. Look at the external variables file by entering the command below. 
